@@ -31,7 +31,7 @@ const Navbar = () => {
   const navigateElement = NavigationToElement()
 
   return (
-    <Stack className='Navbar' direction='row' spacing={4}>
+    <Stack className='Navbar' direction='row'>
       <a onClick={() => {navigateElement('#root')}}><div>Inicio</div></a>
       <a onClick={() => {navigateElement('#AboutMe')}}><div>Sobre mí</div>
       </a>

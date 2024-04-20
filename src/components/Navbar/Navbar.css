@@ -8,6 +8,7 @@
   top: 0;
   width: 100%;
   z-index: 100;
+  gap: 2em;
 }
 
 .Navbar a {
@@ -31,4 +32,13 @@
 .Navbar  a:hover {
   color: #00FFFF;
   border-bottom: 0.05em solid ;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar {
+    gap: 0em
+  }
+  .Navbar a {
+    margin: 2px;
+  }
 }
