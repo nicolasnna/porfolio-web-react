@@ -1,0 +1,24 @@
+'electric-violet': {
+        '50': '#f4f3ff',
+        '100': '#ebe9fe',
+        '200': '#d9d6fe',
+        '300': '#bdb4fe',
+        '400': '#9c8afb',
+        '500': '#7c5bf7',
+        '600': '#6633ee',
+        '700': '#5c27da',
+        '800': '#4d20b7',
+        '900': '#401c96',
+        '950': '#260f66',
+    },
+    
+    --black: #000000ff;
+--dark-purple: #0d071eff;
+--russian-violet: #1a0d3cff;
+--persian-indigo: #331a77ff;
+--chrysler-blue: #4d27b3ff;
+--electric-indigo: #6633eeff;
+
+    background-image: radial-gradient(circle, #6674ee, #5a64da, #4d54c6, #4045b3, #3336a0);
+
+     background-image: linear-gradient(to top, #252655, #27285e, #282b66, #2a2d6f, #282b66);

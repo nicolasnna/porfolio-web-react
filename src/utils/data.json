@@ -1,0 +1,40 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "title": "Practicante en Control de Inversiones y Activo Fijo",
+      "location": "CMPC Holding, Los Ángeles",
+      "date": "Enero 2023 - Marzo 2023",
+      "description": [
+        "Durante mi práctica, desarrollé e implementé un dashboard para visualizar la información relevante de las distintas sucursales de la empresa relacionadas con el área.",
+        "Se automatizó la actualización de los datos al desarrollar un script en Python que exporta la información relevante del mes en un CSV. También realicé documentación sobre tareas específicas."
+      ]
+    }
+  ],
+  "academic": [
+    {
+      "id": "1",
+      "title": "Ingenieria Civil en Mecatrónica",
+      "location": "Universidad de Talca, Curicó",
+      "date": "2018 - 2024",
+      "description": [
+        "Mi proyecto de titulación fue ''Sistema de localización en interiores basado en fusión de sensores para robot guía'', en el cual utilicé Xbee, IMU y odometría para realizar la localización.",
+        "Adicionalmente desarrollé el prototipo de Robot Guía de personas para un espacio cerrado, considerando mapeo, navegación y la interfaz humano-robot con el usuario a través de una tablet. Se trabajó con Python, C++ y ROS."
+      ] 
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "WebMusic",
+      "description": [
+        "Web para descarga de música de Youtube y Spotify.",
+        "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga.",
+        "Fue desarrollado en el framework Reflex."
+      ],
+      "skills": ["python", "reflex"],
+      "img": "https://raw.githubusercontent.com/nicolasnna/webmusic-reflex-project/master/images/ejemplo%20yt.png",
+      "url": "https://github.com/nicolasnna/webmusic-reflex-project"
+    }
+  ]
+}

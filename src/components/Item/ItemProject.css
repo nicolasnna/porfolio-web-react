@@ -1,0 +1,30 @@
+.itemProject {
+  display: grid;  
+  grid-auto-flow: column;
+  grid-template-columns: 55% 45%;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+}
+.itemProject img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.contentProject h1 {
+  color: #00FFFF;
+}
+.contentProject {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  gap: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  .itemProject {
+    display: flex;  
+    flex-direction: column; 
+  }
+}

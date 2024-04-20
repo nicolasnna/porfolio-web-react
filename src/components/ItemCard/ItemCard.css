@@ -1,0 +1,12 @@
+.itemCard {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 2% 3%;
+  border-radius: 20px;
+  gap: 0.3em;
+}
+
+.itemCard h4 {
+  color: #00FFFF;
+}

@@ -1,0 +1,57 @@
+.cardAbout {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  gap: 2em;
+  margin: 2em 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardAbout {
+    grid-auto-flow: row;
+  }
+}
+
+.textAbout {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 2% 3%;
+  border-radius: 20px;
+  gap: 1em;
+}
+.textAbout a {
+  color: #00FFFF;
+}
+.textAbout a:hover {
+  opacity: 0.8;
+}
+
+.cardPhoto {
+  background: rgb(0, 0, 0, 1);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  opacity: 1;
+  width: max-content;
+  height: max-content;
+  overflow: hidden;
+  rotate: 2deg;
+}
+.cardPhoto::before {
+  content: '';
+  position: absolute;
+  background: #00FFFF;
+  width: 40%;
+  height: 120%;
+  animation: rotate 5s linear infinite
+}
+
+.cardPhoto img{
+  border-radius: 20px;
+  padding: 0.2em;
+  z-index: 10;
+}

@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Domine Variable', serif;
+}
+body {
+  margin-top: 8em;
+  background-image: radial-gradient(
+    125% 125% at 50% 10%,
+    #000 40%,
+    #63e 100%
+  );
+  color: #E0FFFF;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+a {
+  text-decoration: none;
+  color: #E0FFFF;
+}
+strong{
+  color: #00FFFF;
+}
+
+section h1 {
+  font-size: 1.8em;
+}
+
+section {
+  margin: 4em 2em;
+}
+
+@media only screen and (min-width: 992px) { 
+  section {
+    margin: 4em 8em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section {
+    margin: 4em 18em;
+  }
+}
+
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
