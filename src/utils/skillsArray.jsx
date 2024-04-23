@@ -45,7 +45,7 @@ const skillsArray = [
   },
   {
     "name": "reflex",
-    "element": <ItemSkill key={"reflex"} icon={<Reflex width={"auto"} height={constants.heightIcon} />} />
+    "element": <ItemSkill key={"reflex"} icon={<Reflex width={'6em'} height={constants.heightIcon} />} />
   }
 ]
 

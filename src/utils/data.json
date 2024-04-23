@@ -1,7 +1,16 @@
 {
   "experience": [
     {
-      "id": 1,
+      "id": "2",
+      "title": "Ingeniero de Mecatrónica",
+      "location": "Smart Solutions ingeniería Spa",
+      "date": "Abril 2024 - Actualidad",
+      "description": [
+        "Desarrollo de soluciones robóticas empleando la electrónica, mecánica y programación"
+      ]
+    },
+    {
+      "id": "1",
       "title": "Practicante en Control de Inversiones y Activo Fijo",
       "location": "CMPC Holding, Los Ángeles",
       "date": "Enero 2023 - Marzo 2023",
