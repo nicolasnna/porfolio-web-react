@@ -6,7 +6,7 @@ export default function ItemLink({ icon, text, url }) {
     <div className='itemLink'>
       <a href={url}>
         {icon}
-        <h4>{text}</h4>
+        <p>{text}</p>
       </a>
     </div>
   )

@@ -1,17 +1,18 @@
+import React, { lazy } from 'react';
 import Navbar from "../components/Navbar/Navbar"
 import Hero from "../components/Hero/Hero"
 import Experience from "../components/Experience/Experience"
 import Academic from "../components/Academic/Academic"
 import * as constants from "../utils/constants"
 import Footer from "../components/Footer/Footer"
-import AboutMe from "../components/AboutMe/AboutMe"
-import { Fab } from "@mui/material"
+import Fab from "@mui/material/Fab"
 import UpIcon from '@mui/icons-material/KeyboardArrowUp'
 import { useEffect } from "react"
 import Skills from "../components/Skills/Skills"
 import { useLocation } from "react-router-dom"
 import useVisible from "../hooks/useVisible"
 
+const AboutMe = lazy(() => import("../components/AboutMe/AboutMe"))
 
 export default function MainPage() {
   const { state } = useLocation()

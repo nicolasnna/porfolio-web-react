@@ -36,8 +36,8 @@
   justify-items: center;
   gap: 1em;
 }
-.itemlink a h4 {
-  text-shadow: 3px 1px black;
+.itemlink p{
+  text-shadow: 1px 2px black;
   font-size: 1.4em;
   color: #eef3ff;
 }

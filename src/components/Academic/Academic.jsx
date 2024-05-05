@@ -1,4 +1,5 @@
-import { Grid, Stack } from '@mui/material'
+import Grid from '@mui/material/Grid'
+import Stack from '@mui/material/Stack'
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 import ItemCard from '../ItemCard/ItemCard'
 import PropTypes from 'prop-types'

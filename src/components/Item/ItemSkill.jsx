@@ -1,6 +1,6 @@
 import './ItemSkill.css'
 import PropTypes from 'prop-types'
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 
 export default function ItemSkill({ icon, text }) {
   return (

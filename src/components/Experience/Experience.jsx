@@ -1,5 +1,5 @@
 import BusinessCenterOutlinedIcon from '@mui/icons-material/BusinessCenterOutlined'
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import TimelineExperience from './TimelineExperience'
 import PropTypes from 'prop-types'
 import * as constants from '../../utils/constants'

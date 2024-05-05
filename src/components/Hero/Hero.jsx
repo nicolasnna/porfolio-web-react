@@ -1,4 +1,5 @@
-import { Avatar, Stack } from '@mui/material'
+import Avatar from '@mui/material/Avatar'
+import Stack from '@mui/material/Stack'
 import Badge from '../Badge/Badge'
 import PropTypes from 'prop-types'
 import ItemLink from '../Item/ItemLink'
@@ -6,8 +7,6 @@ import LinkedIn from '../../icons/LinkedIn'
 import Github from '../../icons/Github'
 import Gmail from '../../icons/Gmail'
 import * as constants from '../../utils/constants'
-
-const textBadge = "Disponible para trabajar"
 
 export default function Hero({ urlAvatar, urlRef }) {
   return (
@@ -17,15 +16,15 @@ export default function Hero({ urlAvatar, urlRef }) {
           alt="Photo Nicolas Norambuena from LinkedIn"
           src={urlAvatar} 
           sx={{ width: 70, height: 70 }}/>
-        <Badge text={textBadge} url={urlRef}/>
+        <Badge text={constants.textBadge} url={urlRef}/>
       </Stack>
       <Stack alignItems={'baseline'} direction={'column'} spacing={2} mt={4}>
         <h1 style={{fontSize: "xx-large"}}>
             Hola, soy Nicolás Norambuena
         </h1>
-        <h3>
+        <p style={{fontSize: "1.2em"}}>
           Ingeniero Civil Mecatrónico egresado y nuevo en el Desarrollo Web. De Chile. Apasionado en el desarrollo de tecnología y aplicaciones.
-        </h3>
+        </p>
       </Stack>
       <div style={{
         margin: "2em 0",

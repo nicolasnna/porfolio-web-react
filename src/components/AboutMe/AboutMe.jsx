@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import Stack from "@mui/material/Stack";
 import PersonSearchOutlinedIcon from '@mui/icons-material/PersonSearchOutlined'
 import './AboutMe.css'
 import * as constants from '../../utils/constants'
@@ -20,7 +20,7 @@ export default function AboutMe() {
           </p>
         </div>
         <div className="cardPhoto">
-          <img alt='Photo Nicolas Norambuena' width={'250em'} height={'auto'} src='/photo-me.webp'></img>
+          <img alt='Photo Nicolas Norambuena' width={'250em'} height={'100%'} src='/photo-me.webp'></img>
         </div>
       </div>
     </section>

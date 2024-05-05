@@ -1,6 +1,6 @@
 import './ItemProject.css'
 import skillsArray from '../../utils/skillsArray'
-import { Stack } from '@mui/material'
+import Stack from '@mui/material/Stack'
 import Github from '../../icons/Github'
 
 export default function ItemProject({ project }) {
