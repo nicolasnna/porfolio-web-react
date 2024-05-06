@@ -39,11 +39,23 @@
       "description": [
         "Web para descarga de música de Youtube y Spotify.",
         "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga.",
-        "Fue desarrollado en el framework Reflex."
+        "Cuenta con diseño responsive, pensado para móviles y desktops."
       ],
       "skills": ["python", "reflex"],
       "img": "https://raw.githubusercontent.com/nicolasnna/webmusic-reflex-project/master/images/ejemplo%20yt.png",
       "url": "https://github.com/nicolasnna/webmusic-reflex-project"
+    },
+    {
+      "id": "2",
+      "title": "Porfolio web",
+      "description": [
+        "Porfolio web para presentación de caracter profesional.",
+        "Cuenta con la formación académica, profesional y con proyectos realizados con distintas tecnologías.",
+        "Cuenta con diseño responsive."
+      ],
+      "skills": ["html", "css", "javascript", "react", "materialui"],
+      "img": "https://raw.githubusercontent.com/nicolasnna/porfolio-web-react/master/doc/preview-page.png",
+      "url": "https://github.com/nicolasnna/porfolio-web-react"
     }
   ]
 }
