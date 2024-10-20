@@ -27,7 +27,7 @@ section h1 {
   font-size: 1.8em;
 }
 
-section {
+/* section {
   margin: 4em 2em;
 }
 
@@ -41,7 +41,7 @@ section {
   section {
     margin: 4em 18em;
   }
-}
+} */
 
 @keyframes rotate {
   from{

@@ -4,12 +4,13 @@
   align-items: center;
   justify-items: center;
   gap: 2em;
-  margin: 2em 0;
+  margin: 2em 6em;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .cardAbout {
     grid-auto-flow: row;
+    margin: 1rem 0.2rem;
   }
 }
 
@@ -22,7 +23,7 @@
   gap: 1em;
 }
 .textAbout a {
-  color: #00FFFF;
+  color: #00ffff;
 }
 .textAbout a:hover {
   opacity: 0.8;
@@ -42,15 +43,15 @@
   rotate: 2deg;
 }
 .cardPhoto::before {
-  content: '';
+  content: "";
   position: absolute;
-  background: #00FFFF;
+  background: #00ffff;
   width: 40%;
   height: 120%;
-  animation: rotate 5s linear infinite
+  animation: rotate 5s linear infinite;
 }
 
-.cardPhoto img{
+.cardPhoto img {
   border-radius: 20px;
   padding: 0.2em;
   z-index: 10;

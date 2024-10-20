@@ -1,5 +1,5 @@
 .itemProject {
-  display: grid;  
+  display: grid;
   grid-auto-flow: column;
   grid-template-columns: 55% 45%;
   align-items: center;
@@ -13,18 +13,21 @@
   border-radius: 20px;
 }
 .contentProject h1 {
-  color: #00FFFF;
+  color: #00ffff;
+  font-size: xx-large;
 }
 .contentProject {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
   padding: 1em;
   gap: 1em;
 }
 
 @media only screen and (max-width: 768px) {
   .itemProject {
-    display: flex;  
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
   }
 }

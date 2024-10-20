@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   opacity: 1;
-  background-color: rgba(0, 0, 0, 0.7);  
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
   top: 0;
   width: 100%;
@@ -12,10 +12,11 @@
 }
 
 .Navbar a {
-  color: #E0FFFF;
-  margin: 10px;
-  font-size: 18px;
+  color: #e0ffff;
+  cursor: pointer;
+  font-size: 20px;
   text-decoration: none;
+  z-index: 4;
 }
 
 .Navbar div {
@@ -25,18 +26,18 @@
   padding: 1em 1em;
 }
 
-.Navbar  div:hover {
-  background-color: rgb(255, 255, 255, 0.1);  
+.Navbar div:hover {
+  background-color: rgb(255, 255, 255, 0.1);
 }
 
-.Navbar  a:hover {
-  color: #00FFFF;
-  border-bottom: 0.05em solid ;
+.Navbar a:hover {
+  color: #00ffff;
+  border-bottom: 0.1em solid;
 }
 
 @media only screen and (max-width: 768px) {
   .Navbar {
-    gap: 0em
+    gap: 0em;
   }
   .Navbar a {
     margin: 2px;

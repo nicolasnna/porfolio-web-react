@@ -1,22 +1,13 @@
 {
   "experience": [
     {
-      "id": "2",
+      "id": "1",
       "title": "Ingeniero de Mecatrónica",
       "location": "Smart Solutions ingeniería Spa",
       "date": "Abril 2024 - Actualidad",
       "description": [
-        "Desarrollo de soluciones robóticas empleando la electrónica, mecánica y programación"
-      ]
-    },
-    {
-      "id": "1",
-      "title": "Practicante en Control de Inversiones y Activo Fijo",
-      "location": "CMPC Holding, Los Ángeles",
-      "date": "Enero 2023 - Marzo 2023",
-      "description": [
-        "Durante mi práctica, desarrollé e implementé un dashboard para visualizar la información relevante de las distintas sucursales de la empresa relacionadas con el área.",
-        "Se automatizó la actualización de los datos al desarrollar un script en Python que exporta la información relevante del mes en un CSV. También realicé documentación sobre tareas específicas."
+        "Encargado de desarrollar soluciones robóticas.",
+        "Me encargo del desarrollo de un robot móvil terrestre autónomo destinado para funciones de seguridad, enfocandome en la electrónica y programación. Adicionalmente del desarrollo de una plataforma web para el uso del robot."
       ]
     }
   ],
@@ -29,31 +20,41 @@
       "description": [
         "Mi proyecto de titulación fue ''Sistema de localización en interiores basado en fusión de sensores para robot guía'', en el cual utilicé Xbee, IMU y odometría para realizar la localización.",
         "Adicionalmente desarrollé el prototipo de Robot Guía de personas para un espacio cerrado, considerando mapeo, navegación y la interfaz humano-robot con el usuario a través de una tablet. Se trabajó con Python, C++ y ROS."
-      ] 
+      ]
     }
   ],
   "projects": [
+    {
+      "id": "3",
+      "title": "Study Streak",
+      "description": [
+        "Web orientada para el autoestudio usando flashcards y distintos modos de juego.",
+        "Cuenta con guardado local de estadísticas y flashcards, con manejo en formato JSON."
+      ],
+      "skills": ["html", "css", "javascript", "react"],
+      "url": "https://github.com/nicolasnna/study-streak",
+      "img": "preview_studystreak.png",
+      "deployUrl": "https://nicolasnna.github.io/study-streak/"
+    },
     {
       "id": "1",
       "title": "WebMusic",
       "description": [
         "Web para descarga de música de Youtube y Spotify.",
-        "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga.",
-        "Cuenta con diseño responsive, pensado para móviles y desktops."
+        "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga."
       ],
       "skills": ["python", "reflex"],
-      "img": "https://raw.githubusercontent.com/nicolasnna/webmusic-reflex-project/master/images/ejemplo%20yt.png",
+      "img": "preview_webmusic.png",
       "url": "https://github.com/nicolasnna/webmusic-reflex-project"
     },
     {
       "id": "2",
       "title": "Porfolio web",
       "description": [
-        "Porfolio web para presentación de caracter profesional.",
-        "Cuenta con la formación académica, profesional y con proyectos realizados con distintas tecnologías.",
-        "Cuenta con diseño responsive."
+        "Porfolio web para presentación de personal.",
+        "Presenta formación académica, profesional y proyectos realizados ."
       ],
-      "skills": ["html", "css", "javascript", "react", "materialui"],
+      "skills": ["html", "css", "javascript", "react"],
       "img": "https://raw.githubusercontent.com/nicolasnna/porfolio-web-react/master/doc/preview-page.png",
       "url": "https://github.com/nicolasnna/porfolio-web-react"
     }

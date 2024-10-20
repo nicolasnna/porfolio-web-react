@@ -1,7 +1,5 @@
 # Porfolio Web
 
-
-
 <p align="center" width="100%">
     <a href="https://porfolio-nicolasnna.vercel.app"></a>
     <img src="doc/preview-page.png">
@@ -13,9 +11,9 @@ Porfolio Web propio desarrollado con React + Vite.
 
 # Caracteristicas
 
-* Desarrollado con React + Vite.
-* Página *responsive* adapatado para móviles.
-* Fácil actualización del contenido modificando el archivo `data.json`.
+- Desarrollado con React + Vite.
+- Página _responsive_ adapatado para móviles.
+- Fácil actualización del contenido modificando el archivo `data.json`.
 
 # Ejecución local
 
@@ -24,10 +22,10 @@ Porfolio Web propio desarrollado con React + Vite.
    git clone https://github.com/nicolasnna/porfolio-web-react
    ```
 2. Ir al directorio e instalar lo necesario con npm (u otro gestor de paquetes):
-    ```
-    npm install
-    ```
+   ```
+   npm install
+   ```
 3. Ejecutar el entorno de desarrollador:
    ```
    npm run dev
-   ``` 
+   ```

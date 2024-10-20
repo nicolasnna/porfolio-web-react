@@ -1,0 +1,26 @@
+.hero {
+  padding: 0rem 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero--content {
+  flex-direction: row !important;
+}
+
+.hero--links {
+  flex-direction: row !important;
+  align-self: start;
+  gap: 2rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    padding: 0rem 0.4rem;
+  }
+  .hero--content {
+    flex-direction: column !important;
+  }
+}
