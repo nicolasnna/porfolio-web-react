@@ -19,7 +19,7 @@ export default function Academic({ academicList }) {
         <SchoolOutlinedIcon sx={{ fontSize: constants.fontIconMain }} />
         <h1>Formación académica</h1>
       </Stack>
-      <Stack className="academic--content" gap={2} px={3}>
+      <Stack className="academic--content" gap={2}>
         {academicList.map((academic) => (
           <ItemCard key={academic.id} listContent={academic} />
         ))}
