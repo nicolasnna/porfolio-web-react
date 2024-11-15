@@ -23,7 +23,7 @@ export default function Hero() {
           <p style={{ fontSize: "x-large" }}>
             Ingeniero Mecatrónico orientado al desarrollo de soluciones
             <span style={{ color: "#00FFFF" }}> roboticas</span> y{" "}
-            <span style={{ color: "#00FFFF" }}>frontend</span>.
+            <span style={{ color: "#00FFFF" }}>software</span>.
           </p>
         </Stack>
       </Stack>
