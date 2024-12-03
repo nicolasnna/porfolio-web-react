@@ -46,17 +46,6 @@
       "skills": ["python", "reflex"],
       "img": "preview_webmusic.png",
       "url": "https://github.com/nicolasnna/webmusic-reflex-project"
-    },
-    {
-      "id": "2",
-      "title": "Porfolio web",
-      "description": [
-        "Porfolio web para presentación de personal.",
-        "Presenta formación académica, profesional y proyectos realizados ."
-      ],
-      "skills": ["html", "css", "javascript", "react"],
-      "img": "https://raw.githubusercontent.com/nicolasnna/porfolio-web-react/master/doc/preview-page.png",
-      "url": "https://github.com/nicolasnna/porfolio-web-react"
     }
   ]
 }
