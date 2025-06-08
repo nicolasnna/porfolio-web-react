@@ -6,30 +6,45 @@
       "location": "Smart Solutions ingeniería Spa",
       "date": "Abril 2024 - Actualidad",
       "description": [
-        "Encargado de desarrollar soluciones robóticas.",
-        "Me encargo del desarrollo de un robot móvil terrestre autónomo destinado para funciones de seguridad, enfocandome en la electrónica y programación. Adicionalmente del desarrollo de una plataforma web para el uso del robot."
+        "Diseñé y desarrollé un robot móvil autónomo para funciones de seguridad, integrando navegación autónoma, teleoperación web y gestión de alertas.",
+        "Implementé algoritmos de planificación de rutas y control en tiempo real con C++, Python y ROS",
+        "Programé microcontroladores ESP32, Jetson Nano y Raspberry Pi con gestión de errores y prioridades.",
+        "Desarrollé una aplicación web full-stack integrada con el robot móvil, usando React, TypeScript, FastAPI y MySQL para monitoreo en tiempo real, autenticación, gestión de rutas y visualización de registros de patrullaje.",
+        "Implementé y configure servidores VPN para el control del robot móvil y para un sistema de conserjería remota de múltiples edificios, conectando citofonia, accesos y cámaras IP."
       ]
     }
   ],
   "academic": [
+    {
+      "id": "2",
+      "title": "Curso desarrollo full stack",
+      "location": "Full Stack Open, Online",
+      "date": "2024",
+      "description": [
+        "Desarrollo centrado al uso de ReactJS y NodeJs, incluyendo testing con PlayWright, base de datos no relacional con MongoDB y manejo de estados avanzado con Redux."
+      ]
+    },
     {
       "id": "1",
       "title": "Ingenieria Civil en Mecatrónica",
       "location": "Universidad de Talca, Curicó",
       "date": "2018 - 2024",
       "description": [
+        "Titulado con honores y el mejor de la generación del año 2024.",
         "Mi proyecto de titulación fue ''Sistema de localización en interiores basado en fusión de sensores para robot guía'', en el cual utilicé Xbee, IMU y odometría para realizar la localización.",
         "Adicionalmente desarrollé el prototipo de Robot Guía de personas para un espacio cerrado, considerando mapeo, navegación y la interfaz humano-robot con el usuario a través de una tablet. Se trabajó con Python, C++ y ROS."
       ]
     }
+    
   ],
   "projects": [
     {
       "id": "3",
       "title": "Study Streak",
       "description": [
-        "Web orientada para el autoestudio usando flashcards y distintos modos de juego.",
-        "Cuenta con guardado local de estadísticas y flashcards, con manejo en formato JSON."
+        "App enfocada para el autoestudio con flashcards gamificadas: Revisión clásica, múltiple, inversa, y competencia contra bot con 3 niveles de dificultad.",
+        "Desarrolada React + Redux con Material-UI y LocalStorage. Utiliza solo frontend, contiene estadísticas y progreso persistentes en JSON, con importación y exportación de los datos.",
+        "Hice uso de Redux para el manejo del estado global de las flashcards y estadísticas."
       ],
       "skills": ["html", "css", "javascript", "react"],
       "url": "https://github.com/nicolasnna/study-streak",

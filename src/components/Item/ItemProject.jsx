@@ -15,7 +15,7 @@ export default function ItemProject({ project }) {
       }}
     >
       <div className="itemProject">
-        <a href={project.url} target="_blank">
+        <a href={project.deployUrl || project.url} target="_blank">
           <img src={project.img} />
         </a>
         <div className="contentProject">

@@ -21,20 +21,16 @@ export default function AboutMe() {
       <div className="cardAbout">
         <div className="textAbout">
           <p>
-            Hola, soy Nicolás Norambuena, <strong>Ingeniero Mecatrónico</strong>{" "}
-            con pasión por desarrollar soluciones robóticas. Desde siempre me ha
-            interesado la programación, tanto aplicada a la robótica como al
-            desarrollo web.
+            Hola, soy Nicolás Norambuena, desarrollador de software con formación como <strong>Ingeniero Civil en Mecatrónica</strong> y una fuerte pasión por crear soluciones tecnológicas en el área de la robótica y el desarrollo web.
           </p>
           <p>
-            En el desarrollo web, he aprendido de forma autodidacta, enfocándome
-            principalmente en el frontend. También he explorado algunas áreas
-            del backend según lo que necesito para mis proyectos personales o en
-            el trabajo.
+            Desde siempre me ha interesado la programación, y he aplicado ese interés tanto en proyectos robóticos —trabajando con sistemas embebidos, ROS y microcontroladores— como en el desarrollo de aplicaciones web full-stack.
           </p>
           <p>
-            Puedes echarle un vistazo a mis proyectos de robótica y desarrollo
-            web en mi{" "}
+            En el área web, me he formado de manera autodidacta, con un enfoque especial en el frontend, utilizando tecnologías como React, TypeScript y CSS. También he explorado el backend cuando los proyectos lo han requerido, implementando APIs y bases de datos con herramientas como FastAPI y MySQL.
+          </p>
+          <p>
+            Te invito a revisar algunos de mis proyectos en desarrollo web y robótica en mi{" "}
             <a href={constants.urlGithub} target="_blank">
               Github
             </a>

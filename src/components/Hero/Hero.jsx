@@ -21,9 +21,7 @@ export default function Hero() {
             Nicolás Norambuena
           </h1>
           <p style={{ fontSize: "x-large" }}>
-            Ingeniero Mecatrónico orientado al desarrollo de soluciones
-            <span style={{ color: "#00FFFF" }}> roboticas</span> y{" "}
-            <span style={{ color: "#00FFFF" }}>software</span>.
+            Desarrollador de <span style={{ color: "#00FFFF" }}>Software</span> con formación en ingeniería mecatrónica y experiencia en desarrollo de sistemas embebidos, robótica y aplicaciones web Full-Stack.
           </p>
         </Stack>
       </Stack>
