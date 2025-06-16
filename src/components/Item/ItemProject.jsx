@@ -31,8 +31,9 @@ export default function ItemProject({ project }) {
               <Github width="2em" height="2em" />
             </a>
             {project.deployUrl && (
-              <a href={project.deployUrl} target="_blank">
+              <a href={project.deployUrl} target="_blank" className="linkDemo">
                 <Link width="2.5em" />
+                <span style={{ fontSize: "1.3rem" }}>Demo</span>
               </a>
             )}
           </Stack>
