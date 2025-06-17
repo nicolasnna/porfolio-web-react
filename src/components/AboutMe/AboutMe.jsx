@@ -15,7 +15,7 @@ export default function AboutMe() {
         spacing={2}
       >
         <PersonSearchOutlinedIcon sx={{ fontSize: constants.fontIconMain }} />
-        <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Sobre mí</h2>
+        <h2 style={{ fontSize: "1.8rem", fontWeight: "bold" }}>Sobre mí</h2>
       </Stack>
       <div className="cardAbout">
         <div className="textAbout">

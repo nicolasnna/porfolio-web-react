@@ -13,13 +13,15 @@ import useVisible from "@hooks/useVisible"
 import { Box, Container, Stack } from "@mui/material"
 import { Carousel } from "../components/Carousel/Carousel"
 import DataObjectIcon from '@mui/icons-material/DataObject';
+import useWindowSize from "../hooks/useWindowSize"
 
 export default function MainPage() {
   const { state } = useLocation()
   let { targetId } = state || {}
   const navigate = useNavigate()
+  const windowSize = useWindowSize()
 
-
+  const slidesToShow = windowSize.width < 600 ? 1 : windowSize.width < 900 ? 2 : 3
   // Navegar hacia un elemento en especifico desde otra pagina
   useEffect(() => {
     const el = document.getElementById(targetId)
@@ -41,14 +43,14 @@ export default function MainPage() {
           <Box>
             <Stack marginY={4} marginX={1} direction={"row"} alignItems={"center"} justifyContent={"start"} spacing={2}>
               <DataObjectIcon sx={{ fontSize: constants.fontIconMain }}/>
-              <h2 style={{ fontSize: "2rem", fontWeight: "bold"}}>
+              <h2 style={{ fontSize: "1.8rem", fontWeight: "bold"}}>
                 Proyectos destacados
               </h2>
             </Stack>
             <Carousel
               slides={constants.featuredList}
               spacing={20}
-              slidesPerView={2}
+              slidesPerView={slidesToShow}
               renderSlide={(item) => (
                 <div
                   key={item.id}
@@ -60,6 +62,7 @@ export default function MainPage() {
                 >
                   <img width="100%" src={item.img} />
                   <div
+                    className="hover-description"
                     style={{
                       position: "absolute",
                       bottom: 0,
@@ -67,6 +70,8 @@ export default function MainPage() {
                       background: "rgba(0, 0, 0, 0.8)",
                       padding: "0.7rem 0.5rem",
                       boxSizing: "border-box",
+                      visibility: "visible",
+                      fontSize: "0.9rem"
                     }}
                   >
                     <p>{item.description}</p>
@@ -94,7 +99,6 @@ export default function MainPage() {
                 </div>
               )}
             />
-
           </Box>
           <Experience experienceList={constants.experienceList} />
           <Academic academicList={constants.academicList} />

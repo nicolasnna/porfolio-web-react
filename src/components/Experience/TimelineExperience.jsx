@@ -31,7 +31,7 @@ export default function TimelineExperience({ experienceList }) {
           <TimelineContent
             sx={{
               ml: 2,
-              px: 2,
+              px: 0,
               py: 1,
             }}
           >
