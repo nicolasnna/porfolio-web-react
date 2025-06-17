@@ -29,6 +29,7 @@ const Navbar = () => {
   return (
     <Stack className="Navbar" direction="row" margin={0} padding={0}>
       <a
+        style={{ fontSize: "normal"}}
         onClick={() => {
           navigateElement("#root")
         }}
@@ -36,13 +37,14 @@ const Navbar = () => {
         <div>Inicio</div>
       </a>
       <a
+        style={{ fontSize: "normal"}}
         onClick={() => {
           navigateElement("#AboutMe")
         }}
       >
         <div>Sobre mí</div>
       </a>
-      <a href="/projects">
+      <a style={{ fontSize: "normal"}} href="/projects">
         <div>Proyectos</div>
       </a>
     </Stack>
