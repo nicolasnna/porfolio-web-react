@@ -7,6 +7,7 @@ import UpIcon from "@mui/icons-material/KeyboardArrowUp"
 import ItemProject from "@components/Item/ItemProject"
 import * as constants from "@utils/constants"
 import { Container } from "@mui/material"
+import iconProject from "@/assets/favicon.svg"
 
 const ProjectsPage = () => {
   const visibleState = useVisible("hidden")
@@ -23,7 +24,7 @@ const ProjectsPage = () => {
             alignItems={"center"}
             justifyItems={"center"}
           >
-            <img style={{ width: "2em", height: "2.3em" }} src="/favicon.svg" />
+            <img style={{ width: "2em", height: "2.3em" }} src={iconProject} />
             <h1 style={{ fontSize: "2em" }}>Proyectos</h1>
           </Stack>
           {constants.projectList.map((project) => (
