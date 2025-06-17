@@ -24,7 +24,16 @@
   font-size: 1.5rem;
   padding: 0.5rem;
   cursor: pointer;
+  & > svg {
+    font-size: 3rem;
+  }
+  @media only screen and (max-width: 768px) {
+    & > svg {
+      font-size: 2rem;
+    }
+  }
 }
+
 .carousel-arrow-left {
   left: 10px;
 }
