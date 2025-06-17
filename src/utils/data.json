@@ -39,6 +39,19 @@
   ],
   "projects": [
     {
+      "id": "4",
+      "idRouter": "puma-robot",
+      "title": "Robot Puma",
+      "description": [
+        "Robot móvil autónomo para funciones de seguridad, con navegación autónoma, teleoperación web y gestión de alertas.",
+        "Desarrollado con C++, Python y ROS, integrando microcontroladores ESP32, Jetson Nano y Raspberry Pi.",
+        "Incluye planificación de rutas, control en tiempo real y enlace con aplicación web full-stack para monitoreo y gestión.",
+        "Implementa conexión VPN para configuración remota."
+      ],
+      "skills": ["cpp", "python", "ros"],
+      "img": ["/puma/puma-1.webp", "/puma/puma-2.webp", "/puma/puma-3.webp"]
+    },
+    {
       "id": "3",
       "idRouter": "puma-app",
       "title": "Web puma app",
@@ -90,6 +103,13 @@
       "title": "Study Streak",
       "description": "Aplicación de autoestudio con flashcards gamificadas, que permite revisar, competir y seguir el progreso del usuario.",
       "img": "/studystreak/studystreak-1.webp"
+    },
+    {
+      "id": "3",
+      "idRouter": "puma-robot",
+      "title": "Robot Puma",
+      "description": "Robot móvil autónomo para funciones de seguridad, con navegación autónoma y teleoperación web.",
+      "img": "/puma/puma-1.webp"
     }
   ]
 }

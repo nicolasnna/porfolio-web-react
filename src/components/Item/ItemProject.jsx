@@ -18,7 +18,7 @@ export default function ItemProject({ project }) {
     >
       <div className="itemProject">
         {!Array.isArray(project.img) &&
-          <img src={project.img} />
+          <img style={{ width: "auto", maxHeight: "400px" }} src={project.img} />
         }
         {Array.isArray(project.img) &&
           <Carousel
@@ -26,7 +26,7 @@ export default function ItemProject({ project }) {
             slidesPerView={1}
             spacing={0}
             renderSlide={(image) => (
-              <img style={{ width: "100%" }} src={image} loading="lazy" />
+              <img style={{ width: "auto", maxHeight: "400px" }} src={image} loading="lazy" />
             )}
           />
         }

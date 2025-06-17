@@ -62,7 +62,6 @@ export default function MainPage() {
                 >
                   <img width="100%" src={item.img} />
                   <div
-                    className="hover-description"
                     style={{
                       position: "absolute",
                       bottom: 0,
@@ -70,7 +69,6 @@ export default function MainPage() {
                       background: "rgba(0, 0, 0, 0.8)",
                       padding: "0.7rem 0.5rem",
                       boxSizing: "border-box",
-                      visibility: "visible",
                       fontSize: "0.9rem"
                     }}
                   >
