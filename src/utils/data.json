@@ -40,6 +40,17 @@
   "projects": [
     {
       "id": "3",
+      "idRouter": "puma-app",
+      "title": "Web puma app",
+      "description": [
+        "App para el control de un robot a través de internet. Entre las funcionalidades se encuentra: autenticación, monitoreo del estado del robot, gestión de rutas para navegación, manejo de servicios del robot y control teleoperado del robot.",
+        "Proyecto full stack, con frontend en React/Typescript y backend en FastAPI con base de datos MySQL."
+      ],
+      "skills": ["html", "css", "typescript", "react", "fastapi", "mysql"],
+      "img": ["webpuma/webpuma-1.webp", "webpuma/webpuma-2.webp", "webpuma/webpuma-3.webp", "webpuma/webpuma-4.webp", "webpuma/webpuma-5.webp", "webpuma/webpuma-6.webp"]
+    },
+    {
+      "id": "2",
       "idRouter": "study-streak",
       "title": "Study Streak",
       "description": [

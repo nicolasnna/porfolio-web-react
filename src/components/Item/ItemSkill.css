@@ -4,30 +4,14 @@
   align-items: center;
   justify-content: center;
   width: max-content;
-  height: max-content;
-  border-radius: 20px;
+  border-radius: 10px;
   border-color: black;
   overflow: hidden;
-  padding: 0.5em;
-  height: 34px;
+  padding: 0.2rem 0.8rem;
+  height: 50px;
+  background-color: #b9aae244;
 }
 
-.itemSkill::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 330%;
-  background: linear-gradient(to top, #00FFFF 30%, #025c5c92 80%);
-}
-
-.itemSkill::after{
-  content: '';
-  position: absolute;
-  background-image: radial-gradient(circle, #6633ee 60%, #7c5bf7 95%);
-  opacity: 1;
-  inset: 2.3px;
-  border-radius: 18px;
-}
 
 .itemSkill h4 {
   text-shadow: 3px 1px black;

@@ -11,4 +11,4 @@ export const urlLinkin = "https://www.linkedin.com/in/nicolas-norambuenaa/"
 export const urlGithub = "https://github.com/nicolasnna"
 
 export const fontIconMain = 40
-export const heightIcon = "1.5em"
+export const heightIcon = "35px"

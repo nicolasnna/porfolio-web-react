@@ -6,9 +6,12 @@ import Css from "@icons/Css"
 import JavaScript from "@icons/JavaScript"
 import ReactIcon from "@icons/ReactIcon"
 import MaterialUi from "@icons/MaterialUi"
+import Fastapi from "@icons/Fastapi"
 import Reflex from "@icons/Reflex"
 import ItemSkill from "@components/Item/ItemSkill"
 import * as constants from "./constants"
+import Typescript from "@icons/Typescript"
+import Mysql from "../icons/Mysql"
 
 const skillsArray = [
   {
@@ -87,6 +90,21 @@ const skillsArray = [
     ),
   },
   {
+    name: "typescript",
+    element: (
+      <ItemSkill
+        key={"typescript"}
+        icon={
+          <Typescript
+            width={constants.heightIcon}
+            height={constants.heightIcon}
+          />
+        }
+        text={"Typescript"}
+      />
+    ),
+  },
+  {
     name: "react",
     element: (
       <ItemSkill
@@ -122,6 +140,27 @@ const skillsArray = [
       <ItemSkill
         key={"reflex"}
         icon={<Reflex width={"6em"} height={constants.heightIcon} />}
+        text={"Reflex"}
+      />
+    ),
+  },
+  {
+    name: "fastapi",
+    element: (
+      <ItemSkill
+        key={"fastapi"}
+        icon={<Fastapi width={constants.heightIcon} height={constants.heightIcon} />}
+        text={"FastAPI"}
+      />
+    ),
+  },
+  {
+    name: "mysql",
+    element: (
+      <ItemSkill
+        key={"mysql"}
+        icon={<Mysql width={"50px"} height={"40px"} />}
+        text={"MySQL"}
       />
     ),
   },

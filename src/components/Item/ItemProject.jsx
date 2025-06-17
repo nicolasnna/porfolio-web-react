@@ -39,9 +39,9 @@ export default function ItemProject({ project }) {
             alignItems={"center"}
           >
             <h1>{project.title}</h1>
-            <a href={project.url} target="_blank">
+            {project.url && <a href={project.url} target="_blank">
               <Github width="2em" height="2em" />
-            </a>
+            </a>}
             {project.deployUrl && (
               <a href={project.deployUrl} target="_blank" className="linkDemo">
                 <Link width="2.5em" />
@@ -59,7 +59,7 @@ export default function ItemProject({ project }) {
           <Stack display="flex" direction="row" flexWrap="wrap" gap={2}>
             {project.skills.map(
               (skill) =>
-                skillsArray.find((element) => element.name == skill).element
+                skillsArray.find((element) => element.name == skill)?.element
             )}
           </Stack>
         </div>
