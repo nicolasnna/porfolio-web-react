@@ -33,8 +33,20 @@ export function Carousel({
     trackRef.current.style.transform = `translateX(-${offset}px)`;
   };
 
-  const prev = () => goTo(currentIndex - 1);
-  const next = () => goTo(currentIndex + 1);
+  const prev = () => {
+    if (currentIndex === 0) {
+      goTo(totalPages - 1);
+      return;
+    } 
+    goTo(currentIndex - 1);
+  };
+  const next = () => {
+    if (currentIndex === totalPages - 1) {
+      goTo(0);
+      return;
+    }
+    goTo(currentIndex + 1);
+  };
 
   return (
     <div className="carousel-container">

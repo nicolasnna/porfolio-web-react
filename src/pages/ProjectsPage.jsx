@@ -7,32 +7,14 @@ import UpIcon from "@mui/icons-material/KeyboardArrowUp"
 import ItemProject from "@components/Item/ItemProject"
 import * as constants from "@utils/constants"
 import { Container } from "@mui/material"
-import { Carousel } from "../components/Carousel/Carousel"
 
 const ProjectsPage = () => {
   const visibleState = useVisible("hidden")
-
-  const images = [
-    "/webpuma/webpuma-1.webp",
-    "/webpuma/webpuma-2.webp",
-    "/webpuma/webpuma-3.webp",
-    "/webpuma/webpuma-4.webp",
-    "/webpuma/webpuma-5.webp",
-    "/webpuma/webpuma-6.webp",
-  ]
 
   return (
     <>
       <NavBar />
       <Container>
-        <Carousel
-          slides={images}
-          slidesPerView={1}
-          spacing={20}
-          renderSlide={(image) => (
-            <img style={{ width: "100%" }} src={image} />
-          )}
-        />
         <section>
           <Stack
             direction={"row"}

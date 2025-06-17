@@ -25,7 +25,7 @@ export default function ItemProject({ project }) {
             slidesPerView={1}
             spacing={0}
             renderSlide={(image) => (
-              <img style={{ width: "100%" }} src={image} />
+              <img style={{ width: "100%" }} src={image} loading="lazy" />
             )}
           />
         }
