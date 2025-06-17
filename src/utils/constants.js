@@ -4,6 +4,7 @@ import data from "./data.json" assert { type: "json" }
 export const experienceList = data.experience
 export const academicList = data.academic
 export const projectList = data.projects
+export const featuredList = data.featured
 
 export const textBadge = "Trabajando..."
 

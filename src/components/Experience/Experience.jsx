@@ -17,7 +17,7 @@ export default function Experience({ experienceList }) {
         mx={2}
       >
         <BusinessCenterOutlinedIcon sx={{ fontSize: constants.fontIconMain }} />
-        <h1>Experiencia laboral</h1>
+        <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Experiencia laboral</h2>
       </Stack>
       <TimelineExperience experienceList={experienceList} />
     </Box>

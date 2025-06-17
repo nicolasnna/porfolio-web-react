@@ -47,7 +47,7 @@
         "Proyecto full stack, con frontend en React/Typescript y backend en FastAPI con base de datos MySQL."
       ],
       "skills": ["html", "css", "typescript", "react", "fastapi", "mysql"],
-      "img": ["webpuma/webpuma-1.webp", "webpuma/webpuma-2.webp", "webpuma/webpuma-3.webp", "webpuma/webpuma-4.webp", "webpuma/webpuma-5.webp", "webpuma/webpuma-6.webp"]
+      "img": ["/webpuma/webpuma-1.webp", "/webpuma/webpuma-2.webp", "/webpuma/webpuma-3.webp", "/webpuma/webpuma-4.webp", "/webpuma/webpuma-5.webp", "/webpuma/webpuma-6.webp"]
     },
     {
       "id": "2",
@@ -60,7 +60,7 @@
       ],
       "skills": ["html", "css", "javascript", "react"],
       "url": "https://github.com/nicolasnna/study-streak",
-      "img": ["studystreak/studystreak-1.webp", "studystreak/studystreak-2.webp", "studystreak/studystreak-3.webp", "studystreak/studystreak-4.webp", "studystreak/studystreak-5.webp"],
+      "img": ["/studystreak/studystreak-1.webp", "/studystreak/studystreak-2.webp", "/studystreak/studystreak-3.webp", "/studystreak/studystreak-4.webp", "/studystreak/studystreak-5.webp"],
       "deployUrl": "https://nicolasnna.github.io/study-streak/"
     },
     {
@@ -72,8 +72,25 @@
         "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga."
       ],
       "skills": ["python", "reflex"],
-      "img": "preview_webmusic.webp",
+      "img": "/preview_webmusic.webp",
       "url": "https://github.com/nicolasnna/webmusic-reflex-project"
+    }
+  ],
+  "featured": [
+    {
+      "id":"1",
+      "idRouter": "puma-app",
+      "title": "App control robot Puma",
+      "description": "Aplicación web para el control de un robot móvil autónomo, con funcionalidades de monitoreo, gestión de rutas y teleoperación.",
+      "img": "/webpuma/webpuma-3.webp"
+    },
+    {
+      "id": "2",
+      "idRouter": "study-streak",
+      "title": "Study Streak",
+      "description": "Aplicación de autoestudio con flashcards gamificadas, que permite revisar, competir y seguir el progreso del usuario.",
+      "img": "/studystreak/studystreak-1.webp"
     }
   ]
 }
+

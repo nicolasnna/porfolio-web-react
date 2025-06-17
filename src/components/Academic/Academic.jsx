@@ -17,7 +17,7 @@ export default function Academic({ academicList }) {
         justifyItems={"center"}
       >
         <SchoolOutlinedIcon sx={{ fontSize: constants.fontIconMain }} />
-        <h1>Formación académica</h1>
+        <h2 style={{ fontSize: "2rem", fontWeight: "bold" }}>Formación académica</h2>
       </Stack>
       <Stack className="academic--content" gap={2}>
         {academicList.map((academic) => (

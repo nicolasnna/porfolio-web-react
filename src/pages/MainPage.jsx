@@ -8,14 +8,17 @@ import AboutMe from "@components/AboutMe/AboutMe"
 import Fab from "@mui/material/Fab"
 import UpIcon from "@mui/icons-material/KeyboardArrowUp"
 import { useEffect } from "react"
-import Skills from "@components/Skills/Skills"
-import { useLocation } from "react-router-dom"
+import { useLocation, useNavigate } from "react-router-dom"
 import useVisible from "@hooks/useVisible"
-import { Container, Stack } from "@mui/material"
+import { Box, Container, Stack } from "@mui/material"
+import { Carousel } from "../components/Carousel/Carousel"
+import DataObjectIcon from '@mui/icons-material/DataObject';
 
 export default function MainPage() {
   const { state } = useLocation()
   let { targetId } = state || {}
+  const navigate = useNavigate()
+
 
   // Navegar hacia un elemento en especifico desde otra pagina
   useEffect(() => {
@@ -35,7 +38,64 @@ export default function MainPage() {
       <Container>
         <Stack gap={10}>
           <Hero urlAvatar={constants.urlAvatar} urlRef={constants.urlLinkin} />
-          <Skills />
+          <Box>
+            <Stack marginY={4} marginX={1} direction={"row"} alignItems={"center"} justifyContent={"start"} spacing={2}>
+              <DataObjectIcon sx={{ fontSize: constants.fontIconMain }}/>
+              <h2 style={{ fontSize: "2rem", fontWeight: "bold"}}>
+                Proyectos destacados
+              </h2>
+            </Stack>
+            <Carousel
+              slides={constants.featuredList}
+              spacing={20}
+              slidesPerView={2}
+              renderSlide={(item) => (
+                <div
+                  key={item.id}
+                  style={{
+                    display: "flex",
+                    width: "100%",
+                    position: "relative",
+                  }}
+                >
+                  <img width="100%" src={item.img} />
+                  <div
+                    style={{
+                      position: "absolute",
+                      bottom: 0,
+                      width: "100%",
+                      background: "rgba(0, 0, 0, 0.8)",
+                      padding: "0.7rem 0.5rem",
+                      boxSizing: "border-box",
+                    }}
+                  >
+                    <p>{item.description}</p>
+                  </div>
+                  <button
+                    style={{
+                      background: "rgba(0, 0, 0, 0.5)",
+                      border: "none",
+                      cursor: "pointer",
+                      position: "absolute",
+                      top: "1%",
+                      right: "1%",
+                      padding: "0.5rem 0.5rem",
+                      color: '#00FFFF',
+                      fontSize: "1rem",
+                      fontWeight: "bold",
+                      borderRadius: "8px",
+                    }}
+                    onClick={() => {
+                      navigate(`/projects/#${item.idRouter}`, { state: { targetId: item.idRouter } })
+                    }}
+                  >
+                    Ver más
+                  </button>
+                </div>
+              )}
+            />
+
+          </Box>
           <Experience experienceList={constants.experienceList} />
           <Academic academicList={constants.academicList} />
           <AboutMe />

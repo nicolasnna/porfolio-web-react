@@ -7,10 +7,26 @@ import UpIcon from "@mui/icons-material/KeyboardArrowUp"
 import ItemProject from "@components/Item/ItemProject"
 import * as constants from "@utils/constants"
 import { Container } from "@mui/material"
-import iconProject from "@/assets/favicon.svg"
+import { useLocation } from "react-router-dom"
+import { useEffect } from "react"
+import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const ProjectsPage = () => {
   const visibleState = useVisible("hidden")
+  const { state } = useLocation()
+  let { targetId } = state || {}
+  
+  // Navegar hacia un elemento en especifico desde otra pagina
+  useEffect(() => {
+    const el = document.getElementById(targetId)
+    if (el) {
+      el?.scrollIntoView({
+        behavior: "smooth",
+      })
+    }
+  }, [targetId])
+
+  console.log("ProjectsPage", constants.projectList)
 
   return (
     <>
@@ -24,7 +40,7 @@ const ProjectsPage = () => {
             alignItems={"center"}
             justifyItems={"center"}
           >
-            <img style={{ width: "2em", height: "2.3em" }} src={iconProject} />
+            <DataObjectIcon sx={{ fontSize: constants.fontIconMain }}/>
             <h1 style={{ fontSize: "2em" }}>Proyectos</h1>
           </Stack>
           {constants.projectList.map((project) => (
