@@ -48,7 +48,7 @@
       ],
       "skills": ["html", "css", "javascript", "react"],
       "url": "https://github.com/nicolasnna/study-streak",
-      "img": "preview_studystreak.png",
+      "img": ["studystreak/studystreak-1.webp", "studystreak/studystreak-2.webp", "studystreak/studystreak-3.webp", "studystreak/studystreak-4.webp", "studystreak/studystreak-5.webp"],
       "deployUrl": "https://nicolasnna.github.io/study-streak/"
     },
     {
@@ -59,7 +59,7 @@
         "Este proyecto emplea consumo de APIs obtenidas de RapidAPI para busqueda de información y descarga."
       ],
       "skills": ["python", "reflex"],
-      "img": "preview_webmusic.png",
+      "img": "preview_webmusic.webp",
       "url": "https://github.com/nicolasnna/webmusic-reflex-project"
     }
   ]

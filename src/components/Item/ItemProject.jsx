@@ -3,6 +3,7 @@ import skillsArray from "@utils/skillsArray"
 import Stack from "@mui/material/Stack"
 import Github from "@icons/Github"
 import Link from "@icons/Link"
+import { Carousel } from "../Carousel/Carousel"
 
 export default function ItemProject({ project }) {
   return (
@@ -15,9 +16,19 @@ export default function ItemProject({ project }) {
       }}
     >
       <div className="itemProject">
-        <a href={project.deployUrl || project.url} target="_blank">
+        {!Array.isArray(project.img) &&
           <img src={project.img} />
-        </a>
+        }
+        {Array.isArray(project.img) &&
+          <Carousel
+            slides={project.img}
+            slidesPerView={1}
+            spacing={0}
+            renderSlide={(image) => (
+              <img style={{ width: "100%" }} src={image} />
+            )}
+          />
+        }
         <div className="contentProject">
           <Stack
             display={"flex"}
