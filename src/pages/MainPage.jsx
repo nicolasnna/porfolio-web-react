@@ -7,7 +7,7 @@ import Footer from "@components/Footer/Footer"
 import AboutMe from "@components/AboutMe/AboutMe"
 import Fab from "@mui/material/Fab"
 import UpIcon from "@mui/icons-material/KeyboardArrowUp"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { useLocation, useNavigate } from "react-router-dom"
 import useVisible from "@hooks/useVisible"
 import { Box, Container, Stack } from "@mui/material"
@@ -94,6 +94,19 @@ export default function MainPage() {
                   >
                     Ver más
                   </button>
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "0%",
+                      left: "0%",
+                      padding: "0.5rem 0.5rem",
+                      color: '#00FFFF',
+                      background: "rgba(0, 0, 0, 0.7)",
+                      borderRadius: "0 0 10px 0",
+                    }}
+                  >
+                    <span>{item.title}</span>
+                  </div>
                 </div>
               )}
             />

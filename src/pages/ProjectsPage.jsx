@@ -26,8 +26,6 @@ const ProjectsPage = () => {
     }
   }, [targetId])
 
-  console.log("ProjectsPage", constants.projectList)
-
   return (
     <>
       <NavBar />

@@ -41,7 +41,7 @@
     {
       "id": "4",
       "idRouter": "puma-robot",
-      "title": "Robot Puma",
+      "title": "Robot de seguridad",
       "description": [
         "Robot móvil autónomo para funciones de seguridad, con navegación autónoma, teleoperación web y gestión de alertas.",
         "Desarrollado con C++, Python y ROS, integrando microcontroladores ESP32, Jetson Nano y Raspberry Pi.",
@@ -54,7 +54,7 @@
     {
       "id": "3",
       "idRouter": "puma-app",
-      "title": "Web puma app",
+      "title": "Interfaz web robot seguridad",
       "description": [
         "App para el control de un robot a través de internet. Entre las funcionalidades se encuentra: autenticación, monitoreo del estado del robot, gestión de rutas para navegación, manejo de servicios del robot y control teleoperado del robot.",
         "Proyecto full stack, con frontend en React/Typescript y backend en FastAPI con base de datos MySQL."
@@ -93,7 +93,7 @@
     {
       "id":"1",
       "idRouter": "puma-app",
-      "title": "App control robot Puma",
+      "title": "Interfaz web robot seguridad",
       "description": "Aplicación web para el control de un robot móvil autónomo, con funcionalidades de monitoreo, gestión de rutas y teleoperación.",
       "img": "/webpuma/webpuma-3.webp"
     },
@@ -107,7 +107,7 @@
     {
       "id": "3",
       "idRouter": "puma-robot",
-      "title": "Robot Puma",
+      "title": "Robot de seguridad",
       "description": "Robot móvil autónomo para funciones de seguridad, con navegación autónoma y teleoperación web.",
       "img": "/puma/puma-1.webp"
     }
