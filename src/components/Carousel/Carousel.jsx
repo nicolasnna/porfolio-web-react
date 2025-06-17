@@ -52,7 +52,7 @@ export function Carousel({
     <div className="carousel-container">
       {showArrows && (
         <button onClick={prev} className="carousel-arrow carousel-arrow-left">
-          <KeyboardArrowLeftIcon sx={{ color: "#00FFFF", fontSize: "50px" }} />
+          <KeyboardArrowLeftIcon sx={{ color: "#00FFFF", fontSize: "3rem" }} />
         </button>
       )}
       <div 
@@ -72,7 +72,7 @@ export function Carousel({
       </div>
       {showArrows && (
         <button onClick={next} className="carousel-arrow carousel-arrow-right">
-          <KeyboardArrowRightIcon sx={{ color: "#00FFFF", fontSize: "50px" }} />
+          <KeyboardArrowRightIcon sx={{ color: "#00FFFF", fontSize: "3rem" }} />
         </button>
       )}
       {showDots && (

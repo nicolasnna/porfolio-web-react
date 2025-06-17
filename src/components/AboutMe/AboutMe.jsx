@@ -2,7 +2,6 @@ import Stack from "@mui/material/Stack"
 import PersonSearchOutlinedIcon from "@mui/icons-material/PersonSearchOutlined"
 import "./AboutMe.css"
 import * as constants from "../../utils/constants"
-import { Box } from "@mui/material"
 
 export default function AboutMe() {
   return (

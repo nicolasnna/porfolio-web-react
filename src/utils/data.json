@@ -40,6 +40,7 @@
   "projects": [
     {
       "id": "3",
+      "idRouter": "study-streak",
       "title": "Study Streak",
       "description": [
         "App enfocada para el autoestudio con flashcards gamificadas: Revisión clásica, múltiple, inversa, y competencia contra bot con 3 niveles de dificultad.",
@@ -53,6 +54,7 @@
     },
     {
       "id": "1",
+      "idRouter": "webmusic",
       "title": "WebMusic",
       "description": [
         "Web para descarga de música de Youtube y Spotify.",
