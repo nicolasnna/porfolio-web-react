@@ -41,7 +41,7 @@ const ProjectsPage = () => {
             justifyItems={"center"}
           >
             <DataObjectIcon sx={{ fontSize: constants.fontIconMain }}/>
-            <h1 style={{ fontSize: "2em" }}>Proyectos</h1>
+            <h1 style={{ fontSize: "2rem" }}>Proyectos</h1>
           </Stack>
           {constants.projectList.map((project) => (
             <ItemProject key={project.id} project={project} />

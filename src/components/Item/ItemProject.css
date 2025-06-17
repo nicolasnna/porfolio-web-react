@@ -6,15 +6,16 @@
   justify-items: center;
   width: 100%;
   height: 100%;
+  gap: 0.5rem;
 }
 .itemProject img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
-.contentProject h1 {
+.contentProject h2 {
   color: #00ffff;
-  font-size: xx-large;
+  font-size: 1.8rem;
 }
 .contentProject {
   display: flex;

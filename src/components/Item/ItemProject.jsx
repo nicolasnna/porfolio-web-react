@@ -11,9 +11,9 @@ export default function ItemProject({ project }) {
       id={project.idRouter}
       style={{
         backgroundColor: "rgb(255, 255, 255, 0.1)",
-        padding: "3%",
+        padding: "2%",
         borderRadius: "20px",
-        margin: "2em 0",
+        margin: "2rem 0",
       }}
     >
       <div className="itemProject">
@@ -38,7 +38,7 @@ export default function ItemProject({ project }) {
             gap={2}
             alignItems={"center"}
           >
-            <h1>{project.title}</h1>
+            <h2>{project.title}</h2>
             {project.url && <a href={project.url} target="_blank">
               <Github width="2em" height="2em" />
             </a>}
@@ -51,7 +51,7 @@ export default function ItemProject({ project }) {
           </Stack>
           <Stack gap={1.5}>
             {project.description.map((content, key) => (
-              <p key={key} style={{ fontSize: "1.12em" }}>
+              <p key={key} style={{ fontSize: "1rem" }}>
                 {content}
               </p>
             ))}
