@@ -17,10 +17,10 @@ export default function Hero() {
           sx={{ width: 130, height: 130 }}
         />
         <Stack alignItems={"baseline"} direction={"column"} spacing={2} mt={4}>
-          <h1 style={{ fontSize: "xx-large", color: "#00FFFF" }}>
+          <h1 style={{ fontSize: "2.2rem", color: "#00FFFF" }}>
             Nicolás Norambuena
           </h1>
-          <p style={{ fontSize: "large" }}>
+          <p style={{ fontSize: "1.2rem" }}>
             Desarrollador de <span style={{ color: "#00FFFF" }}>Software</span> con formación en ingeniería mecatrónica y experiencia en desarrollo de sistemas embebidos, robótica y aplicaciones web Full-Stack.
           </p>
         </Stack>
