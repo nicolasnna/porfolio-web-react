@@ -109,7 +109,7 @@
       "idRouter": "puma-robot",
       "title": "Robot de seguridad",
       "description": "Robot móvil autónomo para funciones de seguridad, con navegación autónoma y teleoperación web.",
-      "img": "/puma/puma-1.webp"
+      "img": "/puma/puma-3.webp"
     }
   ]
 }
