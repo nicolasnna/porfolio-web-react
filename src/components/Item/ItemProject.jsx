@@ -17,19 +17,26 @@ export default function ItemProject({ project }) {
       }}
     >
       <div className="itemProject">
-        {!Array.isArray(project.img) &&
-          <img style={{ width: "auto", maxHeight: "400px" }} src={project.img} />
-        }
-        {Array.isArray(project.img) &&
+        {!Array.isArray(project.img) && (
+          <img
+            style={{ width: "auto", maxHeight: "400px" }}
+            src={project.img}
+          />
+        )}
+        {Array.isArray(project.img) && (
           <Carousel
             slides={project.img}
             slidesPerView={1}
             spacing={0}
             renderSlide={(image) => (
-              <img style={{ width: "auto", maxHeight: "400px" }} src={image} loading="lazy" />
+              <img
+                style={{ width: "auto", maxHeight: "400px" }}
+                src={image}
+                loading="lazy"
+              />
             )}
           />
-        }
+        )}
         <div className="contentProject">
           <Stack
             display={"flex"}
@@ -39,13 +46,19 @@ export default function ItemProject({ project }) {
             alignItems={"center"}
           >
             <h2>{project.title}</h2>
-            {project.url && <a href={project.url} target="_blank">
-              <Github width="2em" height="2em" />
-            </a>}
+            {project.url && (
+              <a href={project.url} target="_blank">
+                <Github
+                  width="2em"
+                  height="2em"
+                  className="icon-selected"
+                />
+              </a>
+            )}
             {project.deployUrl && (
               <a href={project.deployUrl} target="_blank" className="linkDemo">
-                <Link width="2.5em" />
-                <span style={{ fontSize: "1.3rem" }}>Demo</span>
+                <Link width="2.5em" className="icon-selected"/>
+                <span style={{ fontSize: "1.2rem" }} >Demo</span>
               </a>
             )}
           </Stack>

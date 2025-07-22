@@ -1,6 +1,7 @@
+import Tooltip from '../Tooltip/Tooltip'
 import './ItemSkill.css'
 import PropTypes from 'prop-types'
-import Tooltip from '../../Tooltip/Tooltip'
+
 
 
 export default function ItemSkill({ icon, text }) {

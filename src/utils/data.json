@@ -35,9 +35,35 @@
         "Adicionalmente desarrollé el prototipo de Robot Guía de personas para un espacio cerrado, considerando mapeo, navegación y la interfaz humano-robot con el usuario a través de una tablet. Se trabajó con Python, C++ y ROS."
       ]
     }
-    
   ],
   "projects": [
+    {
+      "id": "5",
+      "idRouter": "finanzas-personales",
+      "title": "Gestor finanzas personales",
+      "description": [
+        "Aplicación web para la gestión de ingresos y gastos con visualización en dashboard.",
+        "Proyecto fullstack: FrontEnd con ReactJS/TS con librerías como zustand, zod; Backend con Express/TS para APIs y llamada a la base de datos, testing con Jest y documentación con Swagger.",
+        "Incluye guardado de datos en base de datos al autenticarse con correo, haciendo uso de JWT y cookies, y guardado local con LocalStorage."
+      ],
+      "skills": [
+        "typescript",
+        "html",
+        "tailwind",
+        "react",
+        "express",
+        "firebase"
+      ],
+      "img": [
+        "/finanzas/fp1.webp",
+        "/finanzas/fp2.webp",
+        "/finanzas/fp3.webp",
+        "/finanzas/fp4.webp",
+        "/finanzas/fp5.webp"
+      ],
+      "url": "https://github.com/nicolasnna/web-finanzas-personales",
+      "deployUrl": "https://web-finanzas-personales.vercel.app/"
+    },
     {
       "id": "4",
       "idRouter": "puma-robot",
@@ -60,7 +86,14 @@
         "Proyecto full stack, con frontend en React/Typescript y backend en FastAPI con base de datos MySQL."
       ],
       "skills": ["html", "css", "typescript", "react", "fastapi", "mysql"],
-      "img": ["/webpuma/webpuma-1.webp", "/webpuma/webpuma-2.webp", "/webpuma/webpuma-3.webp", "/webpuma/webpuma-4.webp", "/webpuma/webpuma-5.webp", "/webpuma/webpuma-6.webp"]
+      "img": [
+        "/webpuma/webpuma-1.webp",
+        "/webpuma/webpuma-2.webp",
+        "/webpuma/webpuma-3.webp",
+        "/webpuma/webpuma-4.webp",
+        "/webpuma/webpuma-5.webp",
+        "/webpuma/webpuma-6.webp"
+      ]
     },
     {
       "id": "2",
@@ -68,12 +101,18 @@
       "title": "Study Streak",
       "description": [
         "App enfocada para el autoestudio con flashcards gamificadas: Revisión clásica, múltiple, inversa, y competencia contra bot con 3 niveles de dificultad.",
-        "Desarrolada React + Redux con Material-UI y LocalStorage. Utiliza solo frontend, contiene estadísticas y progreso persistentes en JSON, con importación y exportación de los datos.",
+        "Desarrollada React + Redux con Material-UI y LocalStorage. Utiliza solo frontend, contiene estadísticas y progreso persistentes en JSON, con importación y exportación de los datos.",
         "Hice uso de Redux para el manejo del estado global de las flashcards y estadísticas."
       ],
       "skills": ["html", "css", "javascript", "react"],
       "url": "https://github.com/nicolasnna/study-streak",
-      "img": ["/studystreak/studystreak-1.webp", "/studystreak/studystreak-2.webp", "/studystreak/studystreak-3.webp", "/studystreak/studystreak-4.webp", "/studystreak/studystreak-5.webp"],
+      "img": [
+        "/studystreak/studystreak-1.webp",
+        "/studystreak/studystreak-2.webp",
+        "/studystreak/studystreak-3.webp",
+        "/studystreak/studystreak-4.webp",
+        "/studystreak/studystreak-5.webp"
+      ],
       "deployUrl": "https://nicolasnna.github.io/study-streak/"
     },
     {
@@ -91,18 +130,11 @@
   ],
   "featured": [
     {
-      "id":"1",
+      "id": "1",
       "idRouter": "puma-app",
       "title": "Interfaz web robot seguridad",
       "description": "Aplicación web para el control de un robot móvil autónomo, con funcionalidades de monitoreo, gestión de rutas y teleoperación.",
       "img": "/webpuma/webpuma-3.webp"
-    },
-    {
-      "id": "2",
-      "idRouter": "study-streak",
-      "title": "Study Streak",
-      "description": "Aplicación de autoestudio con flashcards gamificadas, que permite revisar, competir y seguir el progreso del usuario.",
-      "img": "/studystreak/studystreak-1.webp"
     },
     {
       "id": "3",
@@ -110,7 +142,20 @@
       "title": "Robot de seguridad",
       "description": "Robot móvil autónomo para funciones de seguridad, con navegación autónoma y teleoperación web.",
       "img": "/puma/puma-3.webp"
+    },
+    {
+      "id": "4",
+      "idRouter": "finanzas-personales",
+      "title": "Gestor finanzas personales",
+      "description": "Aplicación web para la gestión de ingresos y gastos con visualización en dashboard.",
+      "img": "/finanzas/fp1.webp"
+    },
+    {
+      "id": "2",
+      "idRouter": "study-streak",
+      "title": "Study Streak",
+      "description": "Aplicación de autoestudio con flashcards gamificadas, que permite revisar, competir y seguir el progreso del usuario.",
+      "img": "/studystreak/studystreak-1.webp"
     }
   ]
 }
-

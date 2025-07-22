@@ -12,158 +12,39 @@ import ItemSkill from "@components/Item/ItemSkill"
 import * as constants from "./constants"
 import Typescript from "@icons/Typescript"
 import Mysql from "../icons/Mysql"
+import { Tailwind } from "../icons/Tailwind"
+import { Firebase } from "../icons/Firebase"
+import { Express } from "../icons/Express"
 
-const skillsArray = [
-  {
-    name: "python",
-    element: (
-      <ItemSkill
-        key={"python"}
-        icon={
-          <Python width={constants.heightIcon} height={constants.heightIcon} />
-        }
-        text={"Python"}
-      />
-    ),
-  },
-  {
-    name: "cpp",
-    element: (
-      <ItemSkill
-        key={"cpp"}
-        icon={
-          <Cpp width={constants.heightIcon} height={constants.heightIcon} />
-        }
-        text={"C++"}
-      />
-    ),
-  },
-  {
-    name: "ros",
-    element: (
-      <ItemSkill
-        key={"ros"}
-        icon={
-          <Ros width={constants.heightIcon} height={constants.heightIcon} />
-        }
-        text={"ROS"}
-      />
-    ),
-  },
-  {
-    name: "html",
-    element: (
-      <ItemSkill
-        key={"html"}
-        icon={
-          <Html width={constants.heightIcon} height={constants.heightIcon} />
-        }
-        text={"HTML"}
-      />
-    ),
-  },
-  {
-    name: "css",
-    element: (
-      <ItemSkill
-        key={"css"}
-        icon={
-          <Css width={constants.heightIcon} height={constants.heightIcon} />
-        }
-        text={"CSS"}
-      />
-    ),
-  },
-  {
-    name: "javascript",
-    element: (
-      <ItemSkill
-        key={"javascript"}
-        icon={
-          <JavaScript
-            width={constants.heightIcon}
-            height={constants.heightIcon}
-          />
-        }
-        text={"JavaScript"}
-      />
-    ),
-  },
-  {
-    name: "typescript",
-    element: (
-      <ItemSkill
-        key={"typescript"}
-        icon={
-          <Typescript
-            width={constants.heightIcon}
-            height={constants.heightIcon}
-          />
-        }
-        text={"Typescript"}
-      />
-    ),
-  },
-  {
-    name: "react",
-    element: (
-      <ItemSkill
-        key={"react"}
-        icon={
-          <ReactIcon
-            width={constants.heightIcon}
-            height={constants.heightIcon}
-          />
-        }
-        text={"React"}
-      />
-    ),
-  },
-  {
-    name: "materialui",
-    element: (
-      <ItemSkill
-        key={"materialui"}
-        icon={
-          <MaterialUi
-            width={constants.heightIcon}
-            height={constants.heightIcon}
-          />
-        }
-        text={"MaterialUI"}
-      />
-    ),
-  },
-  {
-    name: "reflex",
-    element: (
-      <ItemSkill
-        key={"reflex"}
-        icon={<Reflex width={"6em"} height={constants.heightIcon} />}
-        text={"Reflex"}
-      />
-    ),
-  },
-  {
-    name: "fastapi",
-    element: (
-      <ItemSkill
-        key={"fastapi"}
-        icon={<Fastapi width={constants.heightIcon} height={constants.heightIcon} />}
-        text={"FastAPI"}
-      />
-    ),
-  },
-  {
-    name: "mysql",
-    element: (
-      <ItemSkill
-        key={"mysql"}
-        icon={<Mysql width={"50px"} height={"40px"} />}
-        text={"MySQL"}
-      />
-    ),
-  },
+const dict = [
+  { name: "python", text: "Python", icon: Python },
+  { name: "cpp", text: "C++", icon: Cpp },
+  { name: "ros", text: "ROS", icon: Ros },
+  { name: "html", text: "HTML", icon: Html },
+  { name: "css", text: "CSS", icon: Css },
+  { name: "javascript", text: "JavaScript", icon: JavaScript },
+  { name: "typescript", text: "TypeScript", icon: Typescript },
+  { name: "react", text: "React", icon: ReactIcon },
+  { name: "materialui", text: "MaterialUI", icon: MaterialUi },
+  { name: "reflex", text: "Reflex", icon: Reflex, width: "6em" },
+  { name: "fastapi", text: "FastAPI", icon: Fastapi },
+  { name: "mysql", text: "MySQL", icon: Mysql, width: "50px", height: "40px" },
+  { name: "tailwind", text: "Tailwind CSS", icon: Tailwind },
+  { name: "firebase", text: "Firebase", icon: Firebase },
+  { name: "express", text: "Express", icon: Express}
 ]
+
+const skillsArray = dict.map((d) => ({
+  name: d.name,
+  element: (
+    <ItemSkill
+      key={d.name}
+      icon={
+        <d.icon width={d.width ?? constants.heightIcon} height={d.height ?? constants.heightIcon} />
+      }
+      text={d.text}
+    />
+  ),
+}))
 
 export default skillsArray
