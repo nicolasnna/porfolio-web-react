@@ -1,7 +1,7 @@
 .itemProject {
   display: grid;
   grid-auto-flow: column;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 60% 40%;
   align-items: center;
   justify-items: center;
   width: 100%;
@@ -16,7 +16,6 @@
 .contentProject h2 {
   color: #00ffff;
   font-size: 1.75rem;
-
 }
 .contentProject {
   display: flex;
@@ -27,7 +26,7 @@
   gap: 1em;
 }
 
-.linkDemo{
+.linkDemo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,12 +35,12 @@
   font-weight: bold;
 
   :hover {
-    color: #00ffff
+    color: #00ffff;
   }
 }
 
 .icon-selected:hover {
-  color: #00ffff
+  color: #00ffff;
 }
 
 @media only screen and (max-width: 768px) {

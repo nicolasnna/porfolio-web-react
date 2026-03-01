@@ -1,7 +1,13 @@
 .carousel-container {
   position: relative;
   width: 100%;
+
+  padding: 0 0;
+}
+
+.carousel-viewport {
   overflow: hidden;
+  width: 100%;
 }
 
 .carousel-track-wrapper {
@@ -23,6 +29,7 @@
   z-index: 10;
   background: rgba(0, 0, 0, 0.5);
   border: none;
+  border-radius: 1rem;
   color: white;
   font-size: 1.5rem;
   padding: 0.5rem;
@@ -37,11 +44,17 @@
   }
 }
 
-.carousel-arrow-left {
-  left: 10px;
+.carousel-arrow:hover {
+  background: rgba(0, 0, 0, 0.8);
 }
+
+/* Alejar las flechas usando valores más cercanos a 0 o negativos */
+.carousel-arrow-left {
+  left: -10px; /* Juega con este valor (ej: -20px, 0px) */
+}
+
 .carousel-arrow-right {
-  right: 10px;
+  right: -10px; /* Juega con este valor (ej: -20px, 0px) */
 }
 
 .carousel-dots {
@@ -60,6 +73,11 @@
   border: none;
   cursor: pointer;
 }
+
+.carousel-dot:hover {
+  background-color: #00ffff90;
+}
+
 .carousel-dot.active {
-  background: #00FFFF;
+  background: #00ffff;
 }

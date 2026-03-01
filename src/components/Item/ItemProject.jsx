@@ -48,17 +48,13 @@ export default function ItemProject({ project }) {
             <h2>{project.title}</h2>
             {project.url && (
               <a href={project.url} target="_blank">
-                <Github
-                  width="2em"
-                  height="2em"
-                  className="icon-selected"
-                />
+                <Github width="2em" height="2em" className="icon-selected" />
               </a>
             )}
             {project.deployUrl && (
               <a href={project.deployUrl} target="_blank" className="linkDemo">
-                <Link width="2.5em" className="icon-selected"/>
-                <span style={{ fontSize: "1.2rem" }} >Demo</span>
+                <Link width="2.5em" className="icon-selected" />
+                <span style={{ fontSize: "1.2rem" }}>Demo</span>
               </a>
             )}
           </Stack>
@@ -72,7 +68,7 @@ export default function ItemProject({ project }) {
           <Stack display="flex" direction="row" flexWrap="wrap" gap={2}>
             {project.skills.map(
               (skill) =>
-                skillsArray.find((element) => element.name == skill)?.element
+                skillsArray.find((element) => element.name == skill)?.element,
             )}
           </Stack>
         </div>

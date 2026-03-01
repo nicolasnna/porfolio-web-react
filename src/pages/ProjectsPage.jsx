@@ -9,13 +9,13 @@ import * as constants from "@utils/constants"
 import { Container } from "@mui/material"
 import { useLocation } from "react-router-dom"
 import { useEffect } from "react"
-import DataObjectIcon from '@mui/icons-material/DataObject';
+import DataObjectIcon from "@mui/icons-material/DataObject"
 
 const ProjectsPage = () => {
   const visibleState = useVisible("hidden")
   const { state } = useLocation()
   let { targetId } = state || {}
-  
+
   // Navegar hacia un elemento en especifico desde otra pagina
   useEffect(() => {
     const el = document.getElementById(targetId)
@@ -38,7 +38,7 @@ const ProjectsPage = () => {
             alignItems={"center"}
             justifyItems={"center"}
           >
-            <DataObjectIcon sx={{ fontSize: constants.fontIconMain }}/>
+            <DataObjectIcon sx={{ fontSize: constants.fontIconMain }} />
             <h1 style={{ fontSize: "2rem" }}>Proyectos</h1>
           </Stack>
           {constants.projectList.map((project) => (

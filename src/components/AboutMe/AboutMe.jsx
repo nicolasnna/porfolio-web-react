@@ -20,25 +20,42 @@ export default function AboutMe() {
       <div className="cardAbout">
         <div className="textAbout">
           <p>
-            Hola, soy Nicolás Norambuena, desarrollador de software con formación como <strong>Ingeniero Civil en Mecatrónica</strong> y una fuerte pasión por crear soluciones tecnológicas en el área de la robótica y el desarrollo web.
+            Hola, soy Nicolás Norambuena, desarrollador de software e{" "}
+            <strong>Ingeniero Civil en Mecatrónica</strong>. Me especializo en
+            diseñar y construir soluciones tecnológicas escalables, combinando
+            mi pensamiento analítico con mi experiencia en desarrollo web y
+            automatización.
           </p>
           <p>
-            Desde siempre me ha interesado la programación, y he aplicado ese interés tanto en proyectos robóticos —trabajando con sistemas embebidos, ROS y microcontroladores— como en el desarrollo de aplicaciones web full-stack.
+            Mi trayectoria profesional me ha permitido trabajar en todo el ciclo
+            de vida del software. He desarrollado desde sistemas de robótica
+            autónoma e IoT —integrando ROS, C++ y microcontroladores— hasta
+            plataformas web full-stack orientadas a la optimización de procesos
+            empresariales.
           </p>
           <p>
-            En el área web, me he formado de manera autodidacta, con un enfoque especial en el frontend, utilizando tecnologías como React, TypeScript y CSS. También he explorado el backend cuando los proyectos lo han requerido, implementando APIs y bases de datos con herramientas como FastAPI y MySQL.
+            Actualmente, enfoco mi carrera en el desarrollo de software y la
+            infraestructura cloud. Tengo experiencia sólida construyendo y
+            consumiendo APIs, automatizando la extracción de datos con Python y
+            gestionando despliegues. Además, domino el desarrollo frontend con
+            React y TypeScript, lo que me permite entregar soluciones integrales
+            de principio a fin.
           </p>
           <p>
-            Te invito a revisar algunos de mis proyectos en desarrollo web y robótica en mi{" "}
-            <a href={constants.urlGithub} target="_blank">
-              Github
+            Te invito a explorar mis proyectos y repositorios en mi{" "}
+            <a
+              href={constants.urlGithub}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
             </a>
             .
           </p>
         </div>
         <div className="cardPhoto">
           <img
-            alt="Photo Nicolas Norambuena"
+            alt="Nicolas Norambuena"
             width={"250em"}
             height={"100%"}
             src="/photo-me.webp"

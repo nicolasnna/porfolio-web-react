@@ -1,16 +1,26 @@
 {
   "experience": [
     {
+      "id": "2",
+      "title": "Ingeniero de software junior",
+      "location": "Copec Emoac",
+      "date": "Agosto 2025 - Actualidad",
+      "description": [
+        "Actualicé y optimicé las vistas y funcionalidades del backoffice utilizando nestjs/react, mejorando la experiencia de los usuarios internos.",
+        "Automaticé la extracción de datos y descargas masivas de PDFs mediante scripts en Python, reduciendo el tiempo de trabajo manual del equipo."
+      ]
+    },
+    {
       "id": "1",
       "title": "Ingeniero de Mecatrónica",
       "location": "Smart Solutions ingeniería Spa",
-      "date": "Abril 2024 - Actualidad",
+      "date": "Abril 2024 - Junio 2025",
       "description": [
-        "Diseñé y desarrollé un robot móvil autónomo para funciones de seguridad, integrando navegación autónoma, teleoperación web y gestión de alertas.",
-        "Implementé algoritmos de planificación de rutas y control en tiempo real con C++, Python y ROS",
-        "Programé microcontroladores ESP32, Jetson Nano y Raspberry Pi con gestión de errores y prioridades.",
-        "Desarrollé una aplicación web full-stack integrada con el robot móvil, usando React, TypeScript, FastAPI y MySQL para monitoreo en tiempo real, autenticación, gestión de rutas y visualización de registros de patrullaje.",
-        "Implementé y configure servidores VPN para el control del robot móvil y para un sistema de conserjería remota de múltiples edificios, conectando citofonia, accesos y cámaras IP."
+        "Diseñé y desarrollé un robot móvil autónomo para seguridad, integrando navegación autónoma, teleoperación web y gestión de alertas.",
+        "Implementé planificación de rutas y control en tiempo real con C++, Python y ROS1.",
+        "Programé ESP32, Jetson Nano y Raspberry Pi, incorporando manejo de errores y un esquema de prioridades para tareas críticas.",
+        "Desarrollé una aplicación web full-stack integrada al robot (React, TypeScript, FastAPI, MySQL) para monitoreo en tiempo real, autenticación, gestión de rutas y visualización de registros de patrullaje.",
+        "Implementé y configuré servidores VPN para operación remota del robot y para un sistema de conserjería remota multi-edificio, integrando citofonía, control de accesos y cámaras IP."
       ]
     }
   ],

@@ -1,9 +1,8 @@
+import ItemLink from "@components/Item/ItemLink"
+import Github from "@icons/Github"
+import LinkedIn from "@icons/LinkedIn"
 import Avatar from "@mui/material/Avatar"
 import Stack from "@mui/material/Stack"
-import PropTypes from "prop-types"
-import ItemLink from "@components/Item/ItemLink"
-import LinkedIn from "@icons/LinkedIn"
-import Github from "@icons/Github"
 import * as constants from "@utils/constants"
 import "./Hero.css"
 
@@ -21,7 +20,9 @@ export default function Hero() {
             Nicolás Norambuena
           </h1>
           <p style={{ fontSize: "1.2rem" }}>
-            Desarrollador de <span style={{ color: "#00FFFF" }}>Software</span> con formación en ingeniería mecatrónica y experiencia en desarrollo de sistemas embebidos, robótica y aplicaciones web Full-Stack.
+            Ingeniero de <strong>Software</strong> Full‑Stack. Especializado en
+            el desarrollo de plataformas web y automatización de procesos, con
+            un sólido background en Mecatrónica e integración de hardware.
           </p>
         </Stack>
       </Stack>
